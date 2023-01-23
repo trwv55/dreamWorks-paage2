@@ -19,7 +19,7 @@
 
 main {
   flex: 1 0 auto;
-  padding-top: 249px;
+  padding-top: 198px;
 }
 
 footer {
@@ -34,14 +34,15 @@ footer {
   left: 0;
   width: 100%;
   background-color: white;
+
 }
 
 .header-wrapper-content {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   max-width: 1200px;
   margin: 0 auto;
   background-color: transparent;
@@ -54,16 +55,16 @@ footer {
 }
 
 .logo1 {
-  max-width: 155px;
+  max-width: 130px;
   width: 100%;
-  max-height: 133px;
+  max-height: 125px;
   height: 100%;
 }
 
 .logo2 {
-  max-width: 209px;
+  max-width: 199px;
   width: 100%;
-  max-height: 41px;
+  max-height: 37px;
   height: 100%;
 }
 
@@ -72,11 +73,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  flex-basis: 920px;
+  flex-basis: 880px;
 }
 
 .socials {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 33px;
   font-weight: 400;
 }
@@ -88,15 +89,16 @@ footer {
 }
 
 .wh::before {
-    content: "";
-      position: absolute;
-      background-image: url("./images/wh.png");
-      display: block;
-      background-repeat: no-repeat;
-      left: 0;
-      top: -7;
-      width: 36px;
-      height: 38px;
+  content: "";
+  position: absolute;
+  background-image: url("./images/wh.png");
+  display: block;
+  background-repeat: no-repeat;
+  left: 0;
+  top: -7;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
 }
 
 .tel {
@@ -106,39 +108,39 @@ footer {
 
 .tel::before {
   content: "";
-    position: absolute;
-    background-image: url("./images/tel.png");
-
-    background-repeat: no-repeat;
-    left: 0;
-    top: -7;
-    width: 36px;
-    height: 38px;
+  position: absolute;
+  background-image: url("./images/tel.png");
+  background-repeat: no-repeat;
+  left: 0;
+  top: -7;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
 }
 
 .header-title {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 34px;
   font-weight: 400;
   text-transform: uppercase;
   color: #de824d;
   padding-left: 174px;
-  padding-top: 38px;
-  padding-bottom: 36px;
+  padding-top: 25px;
+  padding-bottom: 21px;
   text-align: right;
   margin: 0;
 }
 
 .links-wrapper {
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
 }
 
 
 .links-wrapper .active {
-    color: #dd7d44;
+  color: #dd7d44;
 }
 
 ul li:not(:first-child) {
@@ -203,7 +205,7 @@ ul li:not(:first-child) {
  }
  
 main {
-  padding-top: 40px;
+  padding-top: 65px;
 }
 
 .main-img {
