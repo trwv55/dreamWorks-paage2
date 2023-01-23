@@ -389,14 +389,30 @@ main {
 
 .footer-text {
   font-size: 18px;
-    line-height: 33px;
-    font-weight: 400;
-    color: #727171;
+  line-height: 33px;
+  font-weight: 400;
+  color: #727171;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-text { 
+    font-size: 15px;
+  }
+  .footer-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-text-one {
+    flex-basis: 170px;
+    margin-right: 30px;
+  }
 }
 
 .dreamworks {
   text-decoration: underline;
 }
+
+
 
 /* page about */
 
